@@ -30,10 +30,12 @@
 
 (defn navigation-tab
   []
-  [rne/tab-navigation
-   {:tabBarColor "#fefefe"
-    :tabBarHeight 56
-    :initialTab "first"}
-   (tab-item-cp "first" "chat-bubble-outline" nil)
-   (tab-item-cp "second" "notifications-none" nil)
-   (tab-item-cp "third" "group-work" nil)])
+  (fn []
+    (r/as-element
+     [rne/tab-navigation
+      {:tabBarColor "#fefefe"
+       :tabBarHeight 56
+       :initialTab "first"}
+      (tab-item-cp "first" "chat-bubble-outline" nil)
+      (tab-item-cp "second" "notifications-none" nil)
+      (tab-item-cp "third" "group-work" nil)])))

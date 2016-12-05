@@ -5,15 +5,16 @@
 (defn third-cp
   []
   [view {:style {:flex 1
-                 :background-color "red"
+                 :background-color "blue"
                  :justify-content "center"
                  :align-items "center"}}
    [text {:style {:font-size 24
-                  :font-weight "bold"}}
+                  :font-weight "bold"
+                  :color "white"}}
     "Third Scene"]])
 
 (defn third-scene
   [props]
   (util/wrap-route third-cp {:navigationBar {:title "Third Scene"
-                                              :titleStyle {:color "#333"}
-                                              :backgroundColor "rgba(255,255,255,0.5)"}}))
+                                             :titleStyle {:color "white"}
+                                             :backgroundColor "blue"}}))

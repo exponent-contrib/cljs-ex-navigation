@@ -5,15 +5,16 @@
 (defn second-cp
   []
   [view {:style {:flex 1
-                 :background-color "red"
+                 :background-color "green"
                  :justify-content "center"
                  :align-items "center"}}
    [text {:style {:font-size 24
-                  :font-weight "bold"}}
+                  :font-weight "bold"
+                  :color "white"}}
     "Second Scene"]])
 
 (defn second-scene
   [props]
   (util/wrap-route second-cp {:navigationBar {:title "Second Scene"
-                                             :titleStyle {:color "#333"}
-                                             :backgroundColor "rgba(255,255,255,0.5)"}}))
+                                              :titleStyle {:color "white"}
+                                              :backgroundColor "green"}}))

@@ -9,11 +9,12 @@
                  :justify-content "center"
                  :align-items "center"}}
    [text {:style {:font-size 24
-                  :font-weight "bold"}}
+                  :font-weight "bold"
+                  :color "white"}}
     "First Scene"]])
 
 (defn first-scene
   [props]
   (util/wrap-route first-cp {:navigationBar {:title "First Scene"
-                                             :titleStyle {:color "#333"}
-                                             :backgroundColor "rgba(255,255,255,0.5)"}}))
+                                             :titleStyle {:color "white"}
+                                             :backgroundColor "red"}}))
