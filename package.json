@@ -1,0 +1,16 @@
+{
+  "name": "cljs-ex-navigation",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "private": true,
+  "main": "main.js",
+  "dependencies": {
+    "@exponent/ex-navigation": "^2.1.5",
+    "@exponent/vector-icons": "^1.0.1",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "exponent": "~11.0.0",
+    "react": "~15.3.2",
+    "react-native": "github:exponentjs/react-native#sdk-11.0.3"
+  }
+}
