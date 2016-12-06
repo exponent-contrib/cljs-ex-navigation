@@ -5,7 +5,7 @@
 (defn first-cp
   []
   [view {:style {:flex 1
-                 :background-color "red"
+                 :background-color "orange"
                  :justify-content "center"
                  :align-items "center"}}
    [text {:style {:font-size 24
@@ -17,4 +17,4 @@
   [props]
   (util/wrap-route first-cp {:navigationBar {:title "First Scene"
                                              :titleStyle {:color "white"}
-                                             :backgroundColor "red"}}))
+                                             :backgroundColor "orange"}}))

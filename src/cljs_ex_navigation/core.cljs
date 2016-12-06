@@ -3,6 +3,7 @@
             [re-frame.core :refer [subscribe dispatch dispatch-sync]]
             [cljs-ex-navigation.handlers]
             [cljs-ex-navigation.subs]
+            [cljs-exponent.core]
             [cljs-exponent.reagent :refer [text view image touchable-highlight] :as rn]
             [cljs-ex-navigation.rn-elements :as rne]
             [cljs-ex-navigation.navigation.router :as router]))
